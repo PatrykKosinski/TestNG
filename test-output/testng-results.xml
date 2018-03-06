@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test1" duration-ms="32" started-at="2018-03-06T10:37:24Z" finished-at="2018-03-06T10:37:24Z">
+    <groups>
+      <group name="Smoke">
+        <method signature="day2.ploan()[pri:0, instance:test.day2@123a439b]" name="ploan" class="test.day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Personal loan " duration-ms="32" started-at="2018-03-06T10:37:24Z" finished-at="2018-03-06T10:37:24Z">
+      <class name="test.day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:test.day2@123a439b]" name="prerequiste" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:test.day2@123a439b]" name="ploan" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.day3@762efe5d]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="WebLoginCarLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@762efe5d]" name="WebLoginCarLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method status="PASS" signature="MobilesignoutLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@762efe5d]" name="MobilesignoutLoan" duration-ms="16" started-at="2018-03-06T11:37:24Z" data-provider="getData" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutLoan -->
+        <test-method status="PASS" signature="MobileLogOutCarLoan()[pri:0, instance:test.day3@762efe5d]" name="MobileLogOutCarLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogOutCarLoan -->
+        <test-method status="PASS" signature="MobileLogInCarLoan()[pri:0, instance:test.day3@762efe5d]" name="MobileLogInCarLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogInCarLoan -->
+        <test-method status="PASS" signature="APICarLoan()[pri:0, instance:test.day3@762efe5d]" name="APICarLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" depends-on-methods="test.day3.MobileLogOutCarLoan, test.day3.WebLoginCarLoan" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APICarLoan -->
+        <test-method status="PASS" signature="MobilesignoutLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@762efe5d]" name="MobilesignoutLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" data-provider="getData" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutLoan -->
+        <test-method status="PASS" signature="MobilesignoutLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@762efe5d]" name="MobilesignoutLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" data-provider="getData" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutLoan -->
+        <test-method status="PASS" signature="afterClas()[pri:0, instance:test.day3@762efe5d]" name="afterClas" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClas -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.day1@7637f22]" name="Demo" duration-ms="16" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:test.day1@7637f22]" name="lastexecution" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Personal loan  -->
+    <test name="Car loan" duration-ms="16" started-at="2018-03-06T10:37:24Z" finished-at="2018-03-06T10:37:24Z">
+      <class name="test.day3">
+        <test-method status="PASS" signature="Bfsuite()[pri:0, instance:test.day3@200a570f]" name="Bfsuite" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.day3@200a570f]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="MobileLogInCarLoan()[pri:0, instance:test.day3@200a570f]" name="MobileLogInCarLoan" duration-ms="16" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogInCarLoan -->
+        <test-method status="PASS" signature="MobilesignoutLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@200a570f]" name="MobilesignoutLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" data-provider="getData" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutLoan -->
+        <test-method status="PASS" signature="MobileLogOutCarLoan()[pri:0, instance:test.day3@200a570f]" name="MobileLogOutCarLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogOutCarLoan -->
+        <test-method status="PASS" signature="MobilesignoutLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@200a570f]" name="MobilesignoutLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" data-provider="getData" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutLoan -->
+        <test-method status="PASS" signature="afterClas()[pri:0, instance:test.day3@200a570f]" name="afterClas" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClas -->
+        <test-method status="PASS" signature="MobilesignoutLoan(java.lang.String, java.lang.String)[pri:0, instance:test.day3@200a570f]" name="MobilesignoutLoan" duration-ms="0" started-at="2018-03-06T11:37:24Z" data-provider="getData" finished-at="2018-03-06T11:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilesignoutLoan -->
+      </class> <!-- test.day3 -->
+      <class name="test.day1">
+        <test-method status="PASS" signature="lastMessage()[pri:0, instance:test.day1@7637f22]" name="lastMessage" is-config="true" duration-ms="0" started-at="2018-03-06T11:37:24Z" finished-at="2018-03-06T11:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastMessage -->
+      </class> <!-- test.day1 -->
+    </test> <!-- Car loan -->
+  </suite> <!-- Test1 -->
+</testng-results>

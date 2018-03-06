@@ -1,0 +1,34 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test1" parallel="tests" thread-count="6">
+    <listeners>
+        <listener class-name="test.Listeners"/>
+    </listeners>
+    <test name="Personal loan ">
+        <parameter name="URL" value="personalloan.com"/>
+        <parameter name="AeyPIkey/username" value="123456"/>
+        <classes>
+            <class name="test.day1">
+            <methods>
+                <include name="Demo"/>
+            </methods>
+            </class>
+            <class name="test.day2"/>
+            <class name="test.day3"/>
+
+        </classes>
+    </test>
+<test name="Car loan">
+    <parameter name="URL" value="carloan.com"/>
+
+    <classes>
+        <class name="test.day3">
+            <methods>
+                <exclude name="API.*"/>
+                <exclude name="WebLoginCar.*"/>
+            </methods>
+        </class>
+
+    </classes>
+
+</test>
+</suite>
